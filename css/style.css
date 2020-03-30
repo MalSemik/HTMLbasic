@@ -1,0 +1,180 @@
+/* #4C5DAB */
+
+/* 
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Open Sans', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header {
+    height: 20vh;
+    width: 100%;
+    background-color: #4C5DAB;
+    color: #fff;
+    position: relative;
+}
+
+
+header .image,
+.name {
+    float: left;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+address {
+    float: right;
+    margin: 3vh 15vh 0 0;
+    line-height: 30px;
+}
+
+address a {
+    color: white;
+    text-decoration: none;
+}
+
+header .image {
+    height: 12vh;
+    width: 12vh;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 4vh;
+    margin-left: 18vh;
+}
+
+.name {
+    margin-top: 5vh;
+}
+
+main {
+    min-height: 75vh;
+    width: 100%;
+    position: relative;
+}
+
+aside {
+    width: 30vw;
+    background-color: #eee;
+    float: left;
+    padding-left: 7vw;
+    height: 100vh;
+}
+
+article {
+    margin: 3vh auto;
+    line-height: 30px;
+}
+
+section h3 {
+    padding-top: 3vh;
+}
+
+
+main .fas {
+    color: white;
+    background-color: #4C5DAB;
+    padding: 15px;
+    border-radius: 50%;
+    transition: .5s;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+main .fas:hover {
+    color: #4C5DAB;
+    background-color: #fff;
+}
+
+
+.music,
+.gaming {
+    float: left;
+}
+
+.interests div .fas {
+    color: #4C5DAB;
+    background-color: #fff;
+    border: 5px solid #4C5DAB;
+}
+
+.interests div {
+    margin-right: 10px;
+}
+
+.ref {
+    color: #4C5DAB;
+}
+
+address .fas {
+    padding-right: 10px;
+}
+
+.box {
+    background-color: #ddd;
+    width: 15vw;
+    height: 20vh;
+    box-shadow: #aaa 0 0 10px 3px;
+}
+
+.card {
+    float: left;
+    width: 30%;
+    padding-left: 5vw;
+}
+
+.carditem {
+    width: 15vw;
+    height: 30vh;
+}
+
+.card h5,
+.card p {
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+footer {
+    height: 5vh;
+    width: 100%;
+    background-color: #4C5DAB;
+    color: #fff;
+    position: absolute;
+    bottom: -25vh;
+    left: 0
+}
+
+footer p {
+    line-height: 5vh;
+    padding: 0 auto;
+    text-align: center;
+}
+
+.line-btw {
+    height: 3px;
+    width: 100px;
+    background-color: #555;
+}
